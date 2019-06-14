@@ -1,5 +1,9 @@
 # Cifrado César
+Objetivo: sera una aplicación dirigida a personas entre 20 y 30 años interesados en enviar imagenes donde se
+          necesite descubrir el cifrado para mostrarse la imagen.
+Forma en que lo desarrollare: usare 3 pantallas, una donde mostrare el texto a cifrado, otra donde estara el  codigo descifrado y uno mas donde se mostrara el resultado
 
+-------------------------------------------------------
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 
 ![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
@@ -210,7 +214,7 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es u
 ## Pistas sobre cómo comenzar a trabajar en el proyecto
 
 1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
-   condiciones, algo como [Atom](https://atom.io/), 
+   condiciones, algo como [Atom](https://atom.io/),
    [Visual Code](https://code.visualstudio.com/), [Sublime Text](https://www.sublimetext.com) o cualquier otro de tu preferencia.
 2. Para ejecutar los comandos a continuación necesitarás una :shell:
    [UNIX Shell](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/shell),
@@ -221,7 +225,7 @@ para ver la descripción detallada de cada _habilidad_ y cada _nivel_. Esta es u
    también). Si usas Windows puedes usar [Git bash](https://git-scm.com/download/win),
    aunque recomendaría que consideres probar :penguin: GNU/Linux como tu Sistema Operativo.
 3. Haz tu propio :fork_and_knife: [fork](https://help.github.com/articles/fork-a-repo/)
-   de [ este repositorio](https://github.com/Laboratoria/MEX-008-Cipher) de tu cohort, tus _coaches_ te compartirán un _link_ a un repositorio y te 
+   de [ este repositorio](https://github.com/Laboratoria/MEX-008-Cipher) de tu cohort, tus _coaches_ te compartirán un _link_ a un repositorio y te
    darán acceso de lectura en ese repo.
 4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
    tu _fork_ a tu computadora (copia local).
@@ -291,4 +295,3 @@ Esta sección está  para ayudarte a llevar un control de lo que vas completando
 * [ ] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
 * [ ] Permite usar un `offset` negativo.
 * [ ] Modelo de negocio.
-
