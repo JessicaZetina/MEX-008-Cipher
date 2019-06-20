@@ -1,8 +1,13 @@
 window.cipher = {
-  // ...
+  encode:(offset,string)=> {
+    let result= '';
+    string = string. toUpperCase();
+    for(let i=0; i<string.length; i++ ){
+      const ascii= string[i].charCodeAt();
+      const formula= (ascii-65+offset)%25+65;
+      const letter= string.fromCharCode(formula)
+      result= result+ letter
+    }
+    return result
+  },
 };
-function cifrar (elemento){
-  var palabra = document.getElementsByTagName('input')[1].value;
-  var palabra descifrar = btoa (palabra);
-  document. getElementById("resultado") .innerHTML= palabra codificada;
-}
